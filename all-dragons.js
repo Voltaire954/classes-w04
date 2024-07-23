@@ -16,6 +16,7 @@ class EvilDragon {
     this.nemesis = nemesis
   }
 }
+
 const smaug = new EvilDragon (
   'Smaug',
   'black',
@@ -37,6 +38,8 @@ const falkor = new FriendlyDragon(
   "Bastian"
 );
 
+const dragons = [falkor,smaug]
+console.log(dragons[0].name)
 /****************************************************************************/
 /******************* DO NOT EDIT CODE BELOW THIS LINE ***********************/
 
